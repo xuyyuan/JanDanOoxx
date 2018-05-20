@@ -1,0 +1,10 @@
+目标是爬取煎蛋网妹纸图板块的图片链接，并将图片url存储到mongodb数据库，或者下载该图片
+
+spider是网页改版之前的代码
+
+spider2与spider3是用selenium的方法模拟浏览器行为爬取改版后的网页
+虽然spider2也可以完成整个网页的爬取，但是存在严重的缺陷，缺陷从get_one_page()函数就可以看出来
+这里spider3解决了spider2的缺陷，并且增加了无头模式和禁止加载图片的设置
+
+Have finished !
+
